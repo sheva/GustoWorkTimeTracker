@@ -15,7 +15,7 @@ For example:
 
 **secrets.properties** file holds _user_email_ & _user_password_ props that will be used to login into Gusto. File should be created under [src/main/resources](#GustoWorkTimeTracker/blob/master/src/main/resources/)
 
-Run GustoTracker.java and less than a minute you will have you something similar to this:
+Run GustoTracker.java and less than a minute you will have something similar to this:
 
 <img width="1472" alt="Screen Shot 2021-03-28 at 7 05 37 PM" src="https://user-images.githubusercontent.com/76735/112778189-cd107000-8ff8-11eb-9a86-5a8d35c94408.png">
 
