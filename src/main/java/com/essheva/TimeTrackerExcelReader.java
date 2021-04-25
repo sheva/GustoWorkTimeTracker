@@ -66,6 +66,8 @@ public class TimeTrackerExcelReader {
                             record.setBreakDuration((int)(cell.getNumericCellValue()));
                         }
                         break;
+                    case BLANK:
+                        break;
                     default:
                         throw new IllegalStateException("Unexpected value: " + cell.getCellType());
                 }
@@ -84,6 +86,6 @@ class DayRecord {
     @Setter @Getter private LocalTime start;
     @Setter @Getter private LocalTime end;
     @Setter @Getter private LocalTime breakStarted;
-    @Setter @Getter private int breakDuration;
+    @Setter @Getter private Integer breakDuration;
     @Setter @Getter private String description;
 }
